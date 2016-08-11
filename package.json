@@ -1,6 +1,6 @@
 {
   "name": "installeriza",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Programmatically spawn & install node dependencies.",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,14 @@
   "repository": {
     "type": "git",
     "url": "git+https://gitlab.com/marvindanig/npm-update-module.git"
-  },  
-  "keywords": ["bookiza", "books", "npm", "installer", "programmatically"],
+  },
+  "keywords": [
+    "bookiza",
+    "books",
+    "npm",
+    "installer",
+    "programmatically"
+  ],
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "ISC",
   "dependencies": {
