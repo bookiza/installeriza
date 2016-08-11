@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://gitlab.com/marvindanig/npm-update-module.git"
   },  
-  "keywords": ['bookiza', 'books', 'npm', 'installer', 'programmatically'],
+  "keywords": ["bookiza", "books", "npm", "installer", "programmatically"],
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "ISC",
   "dependencies": {

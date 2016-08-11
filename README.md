@@ -1,6 +1,7 @@
 # Installeriza
 
-Portable npm installer. Programmatically spawn & install node dependencies..
+Programmatically spawn and install node dependencies… A portable npm installer for bookiza apps.
+
 
 ```
   npm i -S installeriza
@@ -9,7 +10,7 @@ Portable npm installer. Programmatically spawn & install node dependencies..
 
   const dependencies = require('installeriza');
 
-  dependecies.install();
+  dependencies.install();
 
 ```
 
