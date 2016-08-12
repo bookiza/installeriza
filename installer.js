@@ -1,4 +1,4 @@
-  function install() {
+  function install(dependencies) {
       'use strong';
 
       const installeriza = require('spawn-npm-install');
@@ -12,11 +12,11 @@
           //     return resolve(data);
           // });
 
-          installer(Object.keys(packageJson.dependencies), { stdio: 'inherit' }, err => {
+          installer(dependencies, { stdio: 'inherit' }, err => {
               if (err)
                   reject(new Error(`Could\n't install modules:\n${err.message}`));
               else
-                return  resolve(true);
+                return resolve(true);
           });
 
       });
