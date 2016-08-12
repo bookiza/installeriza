@@ -1,6 +1,6 @@
 {
   "name": "installeriza",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Programmatically spawn & install node dependencies.",
   "main": "index.js",
   "scripts": {
