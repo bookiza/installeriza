@@ -20,6 +20,6 @@
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "ISC",
   "dependencies": {
-    "npm-execspawn": "1.3.0"
+    "spawn-npm-install": "1.2.0"
   }
 }
