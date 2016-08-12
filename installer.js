@@ -12,11 +12,11 @@
           //     return resolve(data);
           // });
 
-          installer(dependencies, { stdio: 'inherit' }, err => {
+          installeriza(dependencies, { stdio: 'inherit' }, err => {
               if (err)
                   reject(new Error(`Could\n't install modules:\n${err.message}`));
               else
-                return resolve();
+                return resolve(installeriza.stdout.pipe(process.stdout));
           });
 
       });
