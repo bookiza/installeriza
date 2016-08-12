@@ -16,7 +16,7 @@
               if (err)
                   reject(new Error(`Could\n't install modules:\n${err.message}`));
               else
-                return resolve(true);
+                return resolve();
           });
 
       });
