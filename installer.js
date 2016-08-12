@@ -1,12 +1,14 @@
-module.exports = {
-    install() {
-        'use strong';
+  function install() {
+      'use strong';
 
-        const execspawn = require('npm-execspawn');
-        const child = execspawn('npm i -S --silent');
+      const execspawn = require('npm-execspawn');
+      
+      const installer = execspawn("npm i -S --silent");
 
-        child.stderr.pipe(process.stderr);
-        child.stdout.pipe(process.stdout);
+      installer.stderr.pipe(process.stderr);
+      installer.stdout.pipe(process.stdout);
 
-    }
-};
+  }
+
+
+  module.exports.install = install;
