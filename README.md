@@ -1,6 +1,6 @@
 # Installeriza
 
-Programmatically spawn and install node dependencies… A portable npm installer for bookiza apps.
+Programmatically spawn and install node dependencies… A portable npm installer for Bookiza manuscript projects.
 
 
 ```
